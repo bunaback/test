@@ -30,7 +30,6 @@ def send_request(url):
         return resp.content
     else:
         return False
-# تعداد کل صفحاتی که باید کرال شود 
 root_path = 'D:\\test-python\\alexa-rank-checker\\country-list\\a'
 if not os.path.exists(root_path) : os.makedirs(root_path,755)
 
